@@ -1,7 +1,7 @@
 class Table {
     // TODO: synchronized method void printTable(int n)
     synchronized void printtable(int n){
-        for(int i=1;i<=5;i++){
+        for(int i=1;i<=10;i++){
             System.out.print(n*i+" ");
             try {
                 Thread.sleep(400);
